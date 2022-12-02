@@ -1,0 +1,18 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Common credential files
+**/credentials**
+*creds*
+*.dat
+*password*
+
+# Mac/OSX
+.DS_Store
+
+
