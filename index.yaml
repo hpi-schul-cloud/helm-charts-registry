@@ -3,6 +3,16 @@ entries:
   edusharing-crawler:
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2022-12-04T16:49:22.733215065Z"
+    description: A Helm chart for Kubernetes
+    digest: 6dea91db0fbc805b5062f4d07b62ed14c55cc1cdd711019c323e6574fdf3a121
+    name: edusharing-crawler
+    type: application
+    urls:
+    - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-crawler-0.0.02/edusharing-crawler-0.0.02.tgz
+    version: 0.0.02
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2022-12-02T13:28:08.016567948Z"
     description: A Helm chart for Kubernetes
     digest: ac30d2902d4c10fa3d77ec970f435a9234123c3ce50d87d525356af043666dd4
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-crawler-0.0.01/edusharing-crawler-0.0.01.tgz
     version: 0.0.01
-generated: "2022-12-02T13:28:08.016576548Z"
+generated: "2022-12-04T16:49:22.733220965Z"
