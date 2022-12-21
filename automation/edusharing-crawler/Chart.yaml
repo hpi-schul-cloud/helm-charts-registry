@@ -3,4 +3,4 @@ appVersion: 0.1.0
 description: A Helm chart for Kubernetes
 name: edusharing-crawler
 type: application
-version: 0.0.02
+version: 0.1.0
