@@ -3,6 +3,16 @@ entries:
   edusharing-crawler:
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2023-04-18T13:59:27.181141864Z"
+    description: A Helm chart for Kubernetes
+    digest: 6018607beadc9c42fff55c4027fd9dd163971c50b7339bb24c764b7d306671bc
+    name: edusharing-crawler
+    type: application
+    urls:
+    - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-crawler-0.1.3/edusharing-crawler-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2022-12-21T09:06:37.776065061Z"
     description: A Helm chart for Kubernetes
     digest: 8675c003e842bc2053da64b1d8ad51323c0286161a106411a84767577c2a7501
@@ -31,4 +41,15 @@ entries:
     urls:
     - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-crawler-0.0.01/edusharing-crawler-0.0.01.tgz
     version: 0.0.01
-generated: "2022-12-21T09:06:37.777607268Z"
+  edusharing-setup:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-04-18T13:59:27.400649376Z"
+    description: A Helm chart for Kubernetes
+    digest: 597e261c915afdee944f0b845b6409dcfa0afc01b6367aef319a66753705ccdd
+    name: edusharing-setup
+    type: application
+    urls:
+    - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-setup-0.1.2/edusharing-setup-0.1.2.tgz
+    version: 0.1.2
+generated: "2023-04-18T13:59:27.400667076Z"
