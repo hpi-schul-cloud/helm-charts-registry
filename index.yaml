@@ -43,6 +43,16 @@ entries:
     version: 0.0.01
   edusharing-setup:
   - apiVersion: v1
+    appVersion: 0.1.6
+    created: "2023-04-21T14:53:02.261232466Z"
+    description: A Helm chart for Kubernetes
+    digest: 3d9b6b552983a0021f9d1360fce162c688f673cc8c37eee198cc2f7b038fe263
+    name: edusharing-setup
+    type: application
+    urls:
+    - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-setup-0.1.6/edusharing-setup-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
     appVersion: 0.1.5
     created: "2023-04-21T14:42:57.441642043Z"
     description: A Helm chart for Kubernetes
@@ -82,4 +92,4 @@ entries:
     urls:
     - https://github.com/hpi-schul-cloud/helm-charts-registry/releases/download/edusharing-setup-0.1.2/edusharing-setup-0.1.2.tgz
     version: 0.1.2
-generated: "2023-04-21T14:42:57.441668945Z"
+generated: "2023-04-21T14:53:02.261272965Z"
