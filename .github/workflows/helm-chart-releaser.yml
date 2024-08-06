@@ -35,5 +35,5 @@ jobs:
           type: ${{ job.status }} 
           job_name: 'Helmchart Release Status: '
           url: ${{ secrets.RC_WEBHOOK }}
-          channel: '#dbp-dev-monitoring'
+          channel: '#sc-dev-monitoring'
           username: Helmchart Release Failure Notificator
