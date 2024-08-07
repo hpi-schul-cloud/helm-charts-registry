@@ -25,15 +25,15 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.1
         with:
-          charts_dir: automationTest
+          charts_dir: automation
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@1.1.1
-        if: always()
+        if: failure()
         with:
           type: ${{ job.status }} 
           job_name: 'Helmchart Release Status: '
           url: ${{ secrets.RC_WEBHOOK }}
           channel: '#sc-dev-monitoring'
-          username: HelmchartFailTest
+          username: Helmchart Failure Notificator
